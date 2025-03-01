@@ -48,3 +48,21 @@
 
     return 0;
 }
+
+
+*******OutPUt***********
+Enter total number of processes(maximum 20):3
+nEnter Process Burst TimenP[1]:24
+P[2]:3
+P[3]:3
+
+---------------------------------------------------
+Process      Burst Time      Waiting Time      Turnaround Time
+---------------------------------------------------
+P[1 ]        24             0                24
+P[2 ]        3              24               27
+P[3 ]        3              27               30
+---------------------------------------------------
+
+Average Waiting Time: 17.00
+Average Turnaround Time: 27.00
