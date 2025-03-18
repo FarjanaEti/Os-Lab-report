@@ -1,3 +1,10 @@
+****Introduction****
+The Round-Robin (RR) scheduling algorithm is a preemptive CPU
+ scheduling method in which each process is assigned a fixed
+  time slice, called a time quantum. If a process doesnt finish
+   within its time quantum, it is preempted, and the CPU is given
+    to the next process in the ready queue. This process continues
+     until all processes are completed
 *****Source code****
 #include <stdio.h>
 
