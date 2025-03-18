@@ -1,3 +1,5 @@
+*****Introduction*******
+The First-Come, First-Served (FCFS) scheduling algorithm is one of the simplest and most straightforward scheduling algorithms used in operating systems. In this method, processes are executed in the order they arrive in the ready queue. The process that arrives first gets executed first, and the CPU continues executing the processes one by one without preemption.
 **** Source Code******
 #include<stdio.h>
 
